@@ -1,0 +1,552 @@
+﻿html {
+  font-size: 14px;
+}
+
+body {
+  background: #e2efe4 !important;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+#station-container{
+    position:absolute;
+    left:27%;
+}
+    #station-container #station-list{
+        position:relative;
+    }
+    #Moh-Background {
+        background-image: url('/images/Moh_Background.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        height: 400px;
+        width: 100%;
+    }
+#ViewStation-Background {
+    background-image: url('/images/food_station.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 400px;
+    width: 100%;
+}
+#SpecialMoh-Background {
+    background-image: url('/images/SpecialMoh-Background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 400px;
+    width: 100%;
+}
+#Foh-Background {
+    background-image: url('/images/Foh_Background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 400px;
+    width: 100%;
+}
+#txtusername, #txtpassword {
+    border: none;
+    outline: none;
+    box-shadow: none;
+    border-bottom: 2px solid tomato;
+    background-color: transparent;
+    color: white;
+}
+
+#Company-Logo{
+    height:100px;
+    width:150px;
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+#header tr{
+    border-radius:5px;
+}
+
+#data, #header {
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+#btn-back-boh, #btn-back-settings{
+    height: 30px;
+    width: 70px;
+    text-align: center;
+    position: relative;
+    margin-top: -15px;
+    display: none !important;
+}
+#btn-back {
+    height: 30px;
+    width: 70px;
+    margin-top: -15px;
+    justify-content:end;
+}
+
+#boh-screen,
+#boh-screen img,
+#boh,
+[id*='boh'],
+[class*='boh'] {
+    display: none !important;
+}
+
+
+#qms-background {
+    background-image: url('/images/QMS_Background3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 400px;
+    width: 100%;
+}
+
+
+
+#kds-dash {
+    margin-bottom: 60px;
+    background-image: url('../images/pizza-bg2.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 400px;
+    width: 100%;
+    display: block;
+}
+
+#dashboard{
+    font-family: 'Segoe Print';
+    color: tomato;
+    font-weight: bold;
+    text-align:center;
+}
+
+#navbar{
+    width:100%;
+}
+
+.parent {
+    height: 420px;
+    width: 800px;
+    margin: auto;
+    position:relative;
+}
+
+#dashboard-second-row{
+    position:fixed;
+}
+
+.kds-box {
+    height: 200px;
+    width: 250px;
+    border: 2px solid tomato;
+    margin: 5px;
+    transition: 0.3s;
+    background-color: black;
+    opacity: 0.8;
+}
+
+#NumOfOrdersContainer {
+    height: 50px;
+    width: 300px;
+    margin-left: 50px;
+    padding: 5px
+}
+
+#kds-row {
+    margin-top: -20px;
+}
+
+
+.kds-box:hover {
+    border-radius: 10px;
+    transition: 0.3s;
+    cursor: pointer;
+    line-height: 320px;
+}
+.screen-text {
+    line-height:200px;
+    font-weight: bold;
+}
+#moh-screen img{
+    display:none;
+}
+.image_tag {
+    height: 100px;
+    width: 100px;
+    z-index: 100;
+    top: 10%;
+    position: absolute;
+}
+    .image_tag img {
+        margin-left: 50px;
+        position: relative;
+    }
+
+#BumpOrderQMS-0, #BumpOrderQMS-1, #BumpOrderQMS-2, #BumpOrderQMS-3, #BumpOrderQMS-4, #BumpOrderQMS-5, #BumpOrderQMS-6, #BumpOrderQMS-7 {
+    height: 150px;
+    width: 150px;
+    z-index: 100;
+    position: relative;
+    top:30%;
+}
+
+    #BumpOrderQMS-0, #BumpOrderQMS-1, #BumpOrderQMS-2, #BumpOrderQMS-3, #BumpOrderQMS-4, #BumpOrderQMS-5, #BumpOrderQMS-6, #BumpOrderQMS-7 img {
+        position: absolute;
+    }
+
+    #foh-screen img {
+        display: none;
+    }
+#settings-screen img{
+    display:none;
+}
+#qms-screen img {
+    display: none;
+}
+#master-sync img {
+    display: none;
+}
+#boh-screen img {
+    display: none;
+}
+
+.row .col-md-2{
+    width:290px;
+}
+.row .col-md-2 .kds-order {
+    min-height: 280px;
+    width: 280px;
+    border-radius: 16px;
+    border: 1px solid rgba(31, 42, 68, 0.1);
+    border-left: 6px solid #ffb800;
+    position: relative;
+    background-color: white;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 16px rgba(31, 42, 68, 0.08);
+}
+
+.row .col-md-2 .kds-order:nth-child(even) {
+    border-left-color: #1f2a44;
+}
+
+.row .col-md-3 .kds-order2 {
+    min-height: 250px;
+    width: 320px;
+    border-radius: 10px;
+    border: 1px solid rgba(31, 42, 68, 0.1);
+    position: relative;
+    padding: 2px;
+    background-color: white;
+}
+
+#summary-row{
+    position:absolute;
+}
+#summary-box {
+    height: 500px;
+    width: 170px;
+    border: 1px solid black;
+    position: fixed;
+    left:87%;
+    top:20%;
+    z-index: 100;
+    border-radius:5px;
+    padding:10px;
+    background-color:white;
+}
+
+#button-blink-row {
+    position:absolute;
+}
+#blink-button-row #blink-button{
+    position:fixed;
+    height:40px;
+    width:150px;
+    left:87%;
+    top:13%;
+    text-align:center;
+}
+
+#header-text {
+    height: 70px;
+    width: 250px;
+    margin-top: -15px;
+}
+    #header-text h2{
+        line-height:10px;
+    }
+
+#settings-box, #stations, #company-image, #add-station {
+    height: 300px;
+    width: 100%;
+    border: 1px solid lightgrey;
+    border-radius: 2px;
+    box-shadow: 5px 5px 5px lightgrey;
+    padding: 10px;
+}
+
+#settings-box .row .col-md-6 {
+    border: 1px solid lightgrey;
+    height: 200px;
+    width: 100%;
+    box-shadow: 5px 5px 5px lightgrey;
+}
+
+#station-list{
+    width:200px;
+    border-radius:0px;
+    box-shadow:none;
+}
+
+#header-text{
+    height:50px; 
+    width:400px;
+}
+#header-text h4,h2{
+    line-height:50px;
+}
+
+#Preparing, #Collect{
+    height: 150px;
+    width: 100%;
+    margin-top:-20px;
+}
+#preparing-orders, #collect-orders {
+    height: 200px;
+    width: 100%;
+    margin: auto;
+
+}
+#Preparing #preparing-header-text {
+    height: 100px;
+    width: 400px;
+    font-weight: bold;
+    line-height: 100px;
+    padding: 10px;
+    font-family: Monospace;
+}
+    
+.Preparing-Order-1, .Preparing-Order-2, .Preparing-Order-3, .Preparing-Order-4, .Preparing-Order-5, .Preparing-Order-6, .Preparing-Order-7, .Preparing-Order-8 {
+    height: 100px;
+    width: 100px;
+    float: left;
+    line-height: 150px;
+    margin: 10px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    font-family: cursive;
+    border-radius: 10px;
+    background-color: red;
+}
+.Preparing-Order-1 h1, .Preparing-Order-2 h1, .Preparing-Order-3 h1, .Preparing-Order-4 h1, .Preparing-Order-5 h1, .Preparing-Order-6 h1, .Preparing-Order-7 h1, .Preparing-Order-8 h1{
+    line-height:80px;
+}
+
+#Collect #collect-header-text {
+    height: 100px;
+    width: 400px;
+    font-weight: bold;
+    line-height: 100px;
+    padding: 10px;
+    font-family: Monospace;
+}
+
+.Collect-Order-1, .Collect-Order-2, .Collect-Order-3, .Collect-Order-4, .Collect-Order-5, .Collect-Order-6, .Collect-Order-7, .Collect-Order-8 {
+    height: 100px;
+    width: 100px;
+    float: left;
+    line-height: 150px;
+    margin: 10px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    font-family: cursive;
+    border-radius: 10px;
+    background-color: #088F8F;
+}
+    .Collect-Order-1 h1, .Collect-Order-2 h1, .Collect-Order-3 h1, .Collect-Order-4 h1, .Collect-Order-5 h1, .Collect-Order-6 h1, .Collect-Order-7 h1, .Collect-Order-8 h1 {
+        line-height: 100px;
+    }
+    .Collect-Order-1, .Collect-Order-2, .Collect-Order-3, .Collect-Order-4, .Collect-Order-5, .Collect-Order-6, .Collect-Order-7, .Collect-Order-8:hover {
+        cursor: pointer;
+    }
+
+#list-form, #Create, #img-upload {
+    margin-top: 30px;
+}
+
+#moh-order-blinking, #foh-order-blinking, #Screens, #KDS-Update-Data {
+    height: 300px;
+    width: 100%;
+    border: 1px solid lightgrey;
+    border-radius: 2px;
+    box-shadow: 5px 5px 5px lightgrey;
+    padding: 10px;
+}
+
+     .kds-update-data-text {
+        font-weight: bold;
+        font-family: monospace;
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+
+    #set-moh-blinking-seconds, #set-foh-blinking-seconds, #create-station, #create-station-id {
+        border-radius: 0px;
+        box-shadow: none;
+        outline: none;
+    }
+
+#login-box{
+    height:350px;
+    width:500px;
+    border:1px solid black;
+    padding:20px;
+    background-color:black;
+    border-radius:10px;
+    opacity:0.9;
+    box-sizing:border-box;
+}
+#login-box #txtusername,#txtpassword{
+    outline:none;
+    box-shadow:none;
+    border-radius:0px;
+}
+
+#btn-login{
+    border-radius:0px;
+    outline:none;
+}
+
+#dropdown-list{
+    position:relative;
+    margin-left:-80px;
+    height:60px;
+    width:150px;
+    margin-top:20px;
+}
+#btn-profile{
+    outline:none;
+    box-shadow:none;
+    border-radius:0px;
+}
+
+.BumpOrder-1, .BumpOrder-2, .BumpOrder-3, .BumpOrder-4, .BumpOrder-5, .BumpOrder-6, .BumpOrder-7, .BumpOrder-8 {
+    color: white;
+    border: none;
+    outline: none;
+}
+
+#focusonkds{
+    color:white;
+    border:none;
+    outline:none;
+}
+
+.current-box1 {
+    border-bottom-color:limegreen;
+}
+
+/*settings*/
+
+#settings-heading{
+    margin-top:-40px;
+}
+
+/*splash bar */
+
+#splash-bar {
+    height: 10px;
+    width: 70%;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: auto;
+}
+
+#splash-bar-load {
+    height: 100%;
+    width: 0%;
+    background-color: tomato;
+    border-radius: 10px;
+}
+
+#percentage-count {
+    text-align: center;
+    font-family:cursive;
+}
+
+#progress-bar-btn {
+    margin: auto;
+    height: 25px;
+    width: 150px;
+    text-align: center;
+    line-height: 25px;
+}
+
+#login-overlay {
+    position: fixed;
+    inset: 0;
+    z-index: 9999;
+    background: rgba(0,0,0,0.85);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#login-overlay #login-box {
+    max-width: 460px;
+    width: 100%;
+    padding: 28px;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.45);
+}
+
+.login-field {
+    margin-bottom: 18px;
+}
+
+.login-field label {
+    display: block;
+    margin-bottom: 6px;
+    color: #f8fafc;
+    font-weight: 600;
+}
+
+.login-field input {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #475569;
+    border-radius: 4px;
+    background: rgba(255,255,255,0.08);
+    color: #fff;
+}
+
+#login-error {
+    color: #ffbaba;
+    margin-bottom: 16px;
+    min-height: 22px;
+}
+
+.login-locked {
+    overflow: hidden;
+}
